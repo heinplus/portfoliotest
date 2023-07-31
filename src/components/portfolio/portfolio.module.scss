@@ -1,0 +1,74 @@
+.root {
+  font-family: Poppins, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  display: block;
+  justify-content: start;
+  padding: 2rem 0rem;
+  gap: 2em;
+}
+.p {
+  padding: 0.5rem 0rem;
+  text-align: center;
+}
+.span {
+  font-weight: 600;
+  color: orange;
+}
+
+.path {
+  stroke-width: 3;
+  margin: 1rem;
+}
+
+.h3 {
+  font-size: 1.5rem;
+  text-align: start;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 2rem;
+  margin: 2rem 0rem 0rem;
+}
+
+.portfolio-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-img {
+  width: 100%;
+  border-radius: 1rem;
+  pointer-events: none;
+}
+.grid-item {
+  font-size: 1rem;
+  text-align: center;
+  perspective: 2000;
+}
+
+.visit-portofolio {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  gap: 12px;
+  flex-direction: column;
+  justify-content: center;
+}
+.h4 {
+  font-weight: 500;
+}
+
+.socials {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+.social-svg {
+  height: 2rem;
+  fill: #000;
+}
